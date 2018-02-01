@@ -1,0 +1,31 @@
+{
+  "name": "upromise",
+  "scripts": {
+  },
+  "env": {
+    "CLOUDAMQP_APIKEY": {
+      "required": true
+    },
+    "CLOUDAMQP_URL": {
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1
+    },
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "cloudamqp",
+    "herokuconnect",
+    "heroku-postgresql"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/java"
+    }
+  ]
+}
