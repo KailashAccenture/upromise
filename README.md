@@ -1,4 +1,4 @@
- nin## Asynchronous Web-Worker Model Using RabbitMQ in Java
+## Asynchronous Web-Worker Model Using RabbitMQ in Java
 
 As explained in the [Worker Dynos, Background Jobs and Queueing](background-jobs-queueing) article, web requests
 should be completed as fast as possible. If an operation may take a long time, it is best to send it to a worker
