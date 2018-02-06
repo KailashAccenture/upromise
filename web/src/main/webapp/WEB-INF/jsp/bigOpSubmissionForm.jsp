@@ -4,7 +4,7 @@
 <div class="row">
     <div class="span8 offset2">
         <div class="page-header">
-            <h1>Thanks jagmohan/chetan/kailash for support Operation Submission Form</h1>
+            <h1>Thanks Accenture for support Operation Submission Form</h1>
         </div>
         <div>
             <p>
