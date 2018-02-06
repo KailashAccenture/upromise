@@ -1,4 +1,4 @@
-## Asynchronous Web-Worker Model Using RabbitMQ in Java
+ nin## Asynchronous Web-Worker Model Using RabbitMQ in Java
 
 As explained in the [Worker Dynos, Background Jobs and Queueing](background-jobs-queueing) article, web requests
 should be completed as fast as possible. If an operation may take a long time, it is best to send it to a worker
@@ -7,7 +7,7 @@ dyno to be processed in the background. This article demostrates this with an ex
 [AMPQ](http://www.springsource.org/spring-amqp) with the Heroku [CloudAMPQ add-on](https://addons.heroku.com/cloudamqp),
 which provides [RabbitMQ](http://www.rabbitmq.com/) as a service.
 
-### Getting Started with pull request
+### Getting Started with pull request ninoy thanks
 
 This article walks through an example application pre-configured with the CloudAMPQ add-on.
 Follow the steps below to clone the application into your Heroku account:
